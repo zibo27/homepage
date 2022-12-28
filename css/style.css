@@ -1,0 +1,71 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: "Kalam", cursive, sans-serif;
+    font-size: 20px;
+    padding: 0 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.mainHeaderBlack {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 3px -3px 3px #888;
+}
+
+.mainHeaderWhite {
+    color: black;
+    background-color: rgb(255, 0, 191);
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 3px -3px 3px #888;
+}
+
+.photoLogo {
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.section {
+    padding: 20px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 20px auto;
+}
+
+.section--dark {
+    background-color: black;
+}
+
+.section__header {
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.section__header--highlighted {
+    color: hsl(313, 100%, 50%);
+}
+
+.section__paragraph {
+    color: #888;
+}
+
+.section__paragraph--highlighted {
+    color: hsl(313, 100%, 50%);
+}
+
+.footer {
+    text-align: center;
+    text-shadow: 3px -3px 3px #888;
+}

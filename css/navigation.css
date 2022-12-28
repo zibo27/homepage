@@ -1,0 +1,24 @@
+.navigation {
+    border: 4px solid black;
+    max-width: 100%;
+    border-radius: 25px;
+    margin: 20px;
+    background-color: black;
+}
+
+.navigation__list {
+    font-size: 30px;
+    margin: 10px 0;
+    list-style: none;
+    padding: 10px 50px;
+    line-height: 1.5;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: hsl(320, 100%, 50%);
+}
+
+.navigation__link:hover {
+    color: hsl(320, 100%, 80%);
+}

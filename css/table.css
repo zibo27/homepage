@@ -1,0 +1,46 @@
+.container {
+    overflow-x: auto;
+}
+
+.table {
+    font-family: "Lato", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__cell--header {
+    background-color: hsl(320, 100%, 50%);
+    color: white;
+    font-weight: normal;
+}
+
+.table__cell--dark {
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+    font-weight: normal;
+}
+
+.table__cell {
+    border: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.caption__caption {
+    caption-side: bottom;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.table__row {
+    background-color: white;
+}
+
+.table__row:nth-child(even) {
+    background-color: rgb(181, 181, 181);
+}
+
+.table__row:hover {
+    background: rgb(136, 136, 136);
+}
