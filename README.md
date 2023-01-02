@@ -1,5 +1,14 @@
 # Sebastian Pawłowski - moja strona homepage
 
-## Demo
+## Demo:
 
 https://zibo27.github.io/homepage/
+
+## Preview
+
+![homepage]()
+## Technologies used in this project
+- HTML
+- CSS
+- JavaScript
+- BEM convention
