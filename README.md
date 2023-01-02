@@ -6,7 +6,7 @@ https://zibo27.github.io/homepage/
 
 ## Preview
 
-![homepage]()
+![homepage gif](https://github.com/zibo27/homepage/blob/main/images/stylovenia.gif?raw=true)
 ## Technologies used in this project
 - HTML
 - CSS
