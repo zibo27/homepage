@@ -14,6 +14,10 @@ html {
     margin: 0 auto;
 }
 
+.body--grey {
+background-color: rgb(210, 210, 210);
+}
+
 .header {
     color: rgb(255, 255, 255);
     background-color: black;
