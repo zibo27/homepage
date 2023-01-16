@@ -1,18 +1,26 @@
-console.log("Witam Was serdecznie nazywam się Sebastian Pawłowski :) !");
+{
+    const toggleBackground = () => {
+        const body = document.querySelector("body");
+        const nextColorName = document.querySelector(".js-nextColorName");
+        body.classList.toggle("body--grey");
+        nextColorName.innerText = body.classList.contains("body--grey") ? "białe" : "szare";
+    };
 
-let button = document.querySelector(".button");
-let motyw = document.querySelector(".motyw");
-let mainHeaderWhite = document.querySelector(".mainHeaderWhite");
-let header = document.querySelector(".header");
-let headerText = header.innerText;
+    const deleteHeader = () => {
+        const header = document.querySelector(".header")
+        const nextDescription = document.querySelector(".js-nextDescription");
+        header.remove();
+        nextDescription.innerText = "Brak nagłówka"
+    };
 
-button.addEventListener("click", () => {
-    header.remove();
-    button.innerText = "Brak nagłówka"
-});
+    const init = () => {
+        const changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
+        const deleteHeaderButton = document.querySelector(".js-deleteHeaderButton");
 
-motyw.addEventListener("click", () => {
-    header.classList.toggle("mainHeaderWhite");
-    motyw.innerText = header.classList.contains("mainHeaderWhite") ? "Włącz ciemny nagłówek" : "Włącz jasny nagłówek";
-    header.innerText === headerText ? "Zadanie 3 - interakcja przycisku" : header.innerText = headerText;
-});
+        changeBackgroundButton.addEventListener("click", toggleBackground);
+        deleteHeaderButton.addEventListener("click", deleteHeader);
+    };
+
+    init();
+
+}
