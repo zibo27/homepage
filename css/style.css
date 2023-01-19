@@ -26,6 +26,14 @@ background-color: rgb(210, 210, 210);
     text-shadow: 3px -3px 3px #888;
 }
 
+.delete__header {
+    border-radius: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 200px;
+    
+}
+
 .mainHeaderWhite {
     color: black;
     background-color: rgb(255, 0, 191);
